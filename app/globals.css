@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+body {
+  font-family: Saira, serif;
+}
+
+.cs-section-3 .cs-sec3-2 .cs-item:hover .cs-animation-img-main {
+  opacity: 1;
+  visibility: visible;
+  height: 200px;
+  transform: translateX(0);
+  transition: all 0.8s;
+}
+
+.cs-section-3 .cs-sec3-2 .cs-item:hover .cs-animation-img-main img {
+  position: relative !important;
+  opacity: 1;
+  transition: all 0.5s;
+  visibility: visible;
+}
+
+.cs-section-3 .cs-sec3-2 .cs-item:hover .cs-icon-arrow img {
+  transform: rotate(-90deg);
+  transition: all 0.8s;
+}
+
+.cs-section-3 .cs-sec3-2 .cs-item .cs-animation-img-main img {
+  /* max-width: 200px; */
+  width: 100%;
+  opacity: 0;
+  transition: all 0.5s;
+  visibility: hidden;
+  position: relative !important;
+  border-radius: 32px;
+}
+
+.cs-sec-3 .cs-sec3-2 .cs-item .cs-animation-img-main {
+  transform: translateX(100vw);
+  transition: all 0.8s;
+}
+
+.cs-section-3 .cs-sec3-2 .cs-item .cs-icon-arrow img {
+  transform: rotate(0);
+  transition: all 0.8s;
+  position: relative !important;
+}
+
+.cs-sec-video-area .cs-sec2-main .cs-img-area img {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  z-index: 1;
+}
+
+.cs-banner-services img {
+  position: relative !important;
+  object-position: top;
+  opacity: 0.8;
+}
+
+.cs-banner-about:first-child img {
+  object-position: top;
+  border-radius: 0 70px 70px 0 !important;
+  height: 450px !important;
+  object-fit: cover;
+}
+
+.cs-banner-about:last-child img {
+  object-position: top;
+  border-radius: 70px 0 0 70px !important;
+  height: 450px !important;
+  object-fit: cover;
+}
+
+@media (max-width: 767px) {
+
+  .cs-banner-about:first-child img,
+  .cs-banner-about:last-child img {
+    border-radius: 0 !important;
+    height: 330px !important;
+  }
+  .container{
+    padding: 0 15px;
+  }
+}
