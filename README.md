@@ -2,10 +2,11 @@
 Projeyi Çalıştırmak için
 
 ```bash
-npm run dev
-# or
-yarn dev
+1- npm install
+2- npm run dev
+    veya
+    yarn dev
 ```
 Sayfayı açmak için
-[http://localhost:3000](http://localhost:3000) 
+3- [http://localhost:3000](http://localhost:3000) 
 Bu linke tıklayabilirsiniz.
