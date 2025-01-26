@@ -5,7 +5,7 @@ export default function About() {
         <div>
             <div className="bg-[#ffffff]">
                 <div className="container mx-auto">
-                    {/* Misyonumuz Section */}
+                    {/* Misyonumuz Alanı */}
                     <div className="flex flex-col md:flex-row justify-between py-10 items-center gap-5">
                         <div className="cs-banner-about flex-1 rounded-b-[80px] rounded-t-[80px]">
                             <Image src="/ai.webp" width={550} alt="" height={400} />
@@ -20,7 +20,7 @@ export default function About() {
                         </div>
                     </div>
 
-                    {/* Vizyonumuz Section */}
+                    {/* Vizyonumuz Alanı */}
                     <div className="flex flex-col-reverse md:flex-row justify-between sm:py-10 py-4 items-center gap-5 mt-3 sm:mt-12">
                         <div className="flex-1">
                             <p className="text-[#020d19] px-0 lg:px-10 text-2xl sm:text-3xl md:text-4xl font-semibold">
@@ -35,7 +35,7 @@ export default function About() {
                         </div>
                     </div>
 
-                    {/* Değerlerimiz Section */}
+                    {/* Değerlerimiz Alanı */}
                     <div className="flex flex-col md:flex-row justify-between py-4 sm:py-10 items-center gap-5 mt-3 sm:mt-12">
                         <div className="cs-banner-about flex-1 rounded-b-[80px] rounded-t-[80px]">
                             <Image src="/global-2.jpg" width={550} alt="" height={400} />
@@ -53,7 +53,7 @@ export default function About() {
                         </div>
                     </div>
 
-                    {/* Ekibimiz Section */}
+                    {/* Ekibimiz Alanı */}
                     <div className="flex flex-col-reverse md:flex-row justify-between py-4 sm:py-10 items-center gap-5 mt-3 sm:mt-12">
                         <div className="flex-1">
                             <p className="text-[#020d19] px-0 lg:px-10 text-2xl sm:text-3xl md:text-4xl font-semibold">
