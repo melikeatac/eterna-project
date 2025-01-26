@@ -2,10 +2,10 @@ import Image from 'next/image';
 
 const Textbox = () => {
     return (
-        <div className="cs-sec-video-area overflow-x-hidden bg-[#d6d6d6] w-full py-24 sm:py-32">
+        <div className="cs-sec-video-area overflow-x-hidden bg-[#d6d6d6] w-full py-24 lg:py-32">
             <div className="container mx-auto" >
                 <div className="flex justify-between lg:flex-row flex-col items-center gap-12 lg:px-[5%] px-0">
-                    <div className="max-w-[500px] w-full">
+                    <div className="max-w-full lg:max-w-[500px] w-full">
                         <h6 className="text-base leading-7 font-bold text-[020d19]">Biz Kimiz?</h6>
                         <h1 className="sm:text-4xl text-3xl leading-9 sm:leading-11 font-bold text-[#020d19] my-6">Tekar, yapay zeka projelerinde uzmanlaşmış, yenilikçi ve teknoloji odaklı bir şirkettir.</h1>
                         <p className="text-base leading-7 font-medium text-[#020d19]">
@@ -14,7 +14,7 @@ const Textbox = () => {
                             Çözüm odaklı ve müşteri ihtiyaçlarına göre uyarlanabilir projeler geliştiriyoruz.
                         </p>
                     </div>
-                    <div className="cs-img-area sm:flex hidden max-w-[500px] w-full h-[560px] relative overflow-hidden rounded-3xl">
+                    <div className="cs-img-area sm:flex hidden max-w-full lg:max-w-[500px] w-full h-[560px] relative overflow-hidden rounded-3xl">
                         <Image
                             src="/whoweare.png"
                             alt=""

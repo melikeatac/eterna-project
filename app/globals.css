@@ -78,7 +78,14 @@ body {
     border-radius: 0 !important;
     height: 330px !important;
   }
-  .container{
+
+  .container {
     padding: 0 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    padding: 0 5%;
   }
 }
