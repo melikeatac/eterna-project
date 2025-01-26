@@ -1,11 +1,10 @@
-import React from 'react'
 import Image from 'next/image';
 
 const Textbox = () => {
     return (
         <div className="cs-sec-video-area overflow-x-hidden bg-[#d6d6d6] w-full py-24 sm:py-32">
             <div className="container mx-auto" >
-                <div className="flex justify-between items-center gap-12 px-[5%]">
+                <div className="flex justify-between lg:flex-row flex-col items-center gap-12 lg:px-[5%] px-0">
                     <div className="max-w-[500px] w-full">
                         <h6 className="text-base leading-7 font-bold text-[020d19]">Biz Kimiz?</h6>
                         <h1 className="sm:text-4xl text-3xl leading-9 sm:leading-11 font-bold text-[#020d19] my-6">Tekar, yapay zeka projelerinde uzmanlaşmış, yenilikçi ve teknoloji odaklı bir şirkettir.</h1>

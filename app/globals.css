@@ -25,7 +25,6 @@ body {
 }
 
 .cs-section-3 .cs-sec3-2 .cs-item .cs-animation-img-main img {
-  /* max-width: 200px; */
   width: 100%;
   opacity: 0;
   transition: all 0.5s;

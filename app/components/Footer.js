@@ -1,4 +1,4 @@
-import React from 'react'
+import Image from 'next/image';
 
 const Footer = () => {
     return (
@@ -7,8 +7,8 @@ const Footer = () => {
                 <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 lg:pt-24 lg:px-8">
                     <div className="xl:grid xl:grid-cols-3 xl:gap-8">
                         <div className="space-y-8">
-                            {/* <img className="h-9" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=500" alt="Company name"> */}
-                            <p className="text-balance text-sm/6 text-gray-300">Making the world a better place through constructing elegant hierarchies.</p>
+                            <Image src="/logo.png" width={100} height={100} alt="" className='m-0'/>
+                            <p className="text-balance text-sm/6 text-gray-300">Geleceği Bugün İnşa Ediyoruz</p>
                             <div className="flex gap-x-6">
                                 <a href="#" className="text-gray-400 hover:text-gray-300">
                                     <span className="sr-only">Facebook</span>
@@ -45,69 +45,66 @@ const Footer = () => {
                         <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
                             <div className="md:grid md:grid-cols-2 md:gap-8">
                                 <div>
-                                    <h3 className="text-sm/6 font-semibold text-white">Solutions</h3>
+                                    <h3 className="text-sm/6 font-semibold text-white">Çözümler</h3>
                                     <ul role="list" className="mt-6 space-y-4">
                                         <li>
-                                            <a href="#" className="text-sm/6 text-gray-400 hover:text-white">Marketing</a>
+                                            <a href="#" className="text-sm/6 text-gray-400 hover:text-white">Siber Güvenlik</a>
                                         </li>
                                         <li>
-                                            <a href="#" className="text-sm/6 text-gray-400 hover:text-white">Analytics</a>
+                                            <a href="#" className="text-sm/6 text-gray-400 hover:text-white">Bulut ve Ağ</a>
                                         </li>
                                         <li>
-                                            <a href="#" className="text-sm/6 text-gray-400 hover:text-white">Automation</a>
+                                            <a href="#" className="text-sm/6 text-gray-400 hover:text-white">Yapay zeka ve Büyük veri</a>
                                         </li>
                                         <li>
-                                            <a href="#" className="text-sm/6 text-gray-400 hover:text-white">Commerce</a>
+                                            <a href="#" className="text-sm/6 text-gray-400 hover:text-white">Makine Öğrenmesi</a>
                                         </li>
                                         <li>
-                                            <a href="#" className="text-sm/6 text-gray-400 hover:text-white">Insights</a>
+                                            <a href="#" className="text-sm/6 text-gray-400 hover:text-white">Yazılım ve Otomasyon</a>
                                         </li>
                                     </ul>
                                 </div>
                                 <div className="mt-10 md:mt-0">
-                                    <h3 className="text-sm/6 font-semibold text-white">Support</h3>
+                                    <h3 className="text-sm/6 font-semibold text-white">Destek</h3>
                                     <ul role="list" className="mt-6 space-y-4">
                                         <li>
-                                            <a href="#" className="text-sm/6 text-gray-400 hover:text-white">Submit ticket</a>
+                                            <a href="#" className="text-sm/6 text-gray-400 hover:text-white">Danışmanlık</a>
                                         </li>
                                         <li>
-                                            <a href="#" className="text-sm/6 text-gray-400 hover:text-white">Documentation</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" className="text-sm/6 text-gray-400 hover:text-white">Guides</a>
+                                            <a href="#" className="text-sm/6 text-gray-400 hover:text-white">Dokümantasyon</a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                             <div className="md:grid md:grid-cols-2 md:gap-8">
                                 <div>
-                                    <h3 className="text-sm/6 font-semibold text-white">Company</h3>
+                                    <h3 className="text-sm/6 font-semibold text-white">Şirket</h3>
                                     <ul role="list" className="mt-6 space-y-4">
                                         <li>
-                                            <a href="#" className="text-sm/6 text-gray-400 hover:text-white">About</a>
+                                            <a href="/about" className="text-sm/6 text-gray-400 hover:text-white">Hakkımızda</a>
                                         </li>
                                         <li>
                                             <a href="#" className="text-sm/6 text-gray-400 hover:text-white">Blog</a>
                                         </li>
                                         <li>
-                                            <a href="#" className="text-sm/6 text-gray-400 hover:text-white">Jobs</a>
+                                            <a href="/services" className="text-sm/6 text-gray-400 hover:text-white">Hizmetlerimiz</a>
                                         </li>
                                         <li>
-                                            <a href="#" className="text-sm/6 text-gray-400 hover:text-white">Press</a>
+                                            <a href="/contact" className="text-sm/6 text-gray-400 hover:text-white">İletişim</a>
                                         </li>
                                     </ul>
                                 </div>
                                 <div className="mt-10 md:mt-0">
-                                    <h3 className="text-sm/6 font-semibold text-white">Legal</h3>
+                                    <h3 className="text-sm/6 font-semibold text-white">Sözleşmeler</h3>
                                     <ul role="list" className="mt-6 space-y-4">
                                         <li>
-                                            <a href="#" className="text-sm/6 text-gray-400 hover:text-white">Terms of service</a>
+                                            <a href="#" className="text-sm/6 text-gray-400 hover:text-white">Hizmet ŞArtları</a>
                                         </li>
                                         <li>
-                                            <a href="#" className="text-sm/6 text-gray-400 hover:text-white">Privacy policy</a>
+                                            <a href="#" className="text-sm/6 text-gray-400 hover:text-white">Gizlilik Politikası</a>
                                         </li>
                                         <li>
-                                            <a href="#" className="text-sm/6 text-gray-400 hover:text-white">License</a>
+                                            <a href="#" className="text-sm/6 text-gray-400 hover:text-white">Lisans</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -115,7 +112,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
-                        <p className="text-sm/6 text-gray-400">&copy; 2024 Your Company, Inc. All rights reserved.</p>
+                        <p className="text-sm/6 text-gray-400">&copy; Tüm hakları saklıdır</p>
                     </div>
                 </div>
             </footer>
