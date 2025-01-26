@@ -11,10 +11,10 @@ export default function About() {
                             <Image src="/ai.webp" width={550} alt="" height={400} />
                         </div>
                         <div className="flex-1">
-                            <p className="text-[#020d19] px-5 md:px-10 text-2xl sm:text-3xl md:text-4xl font-semibold">
+                            <p className="text-[#020d19] px-0 lg:px-10 text-2xl sm:text-3xl md:text-4xl font-semibold">
                                 <span className="text-3xl md:text-5xl">Misyonumuz</span>,<br /> yapay zeka teknolojilerinin gücünü herkes için erişilebilir ve etkili hale getirmek.
                             </p>
-                            <p className="text-[#020d19] px-5 md:px-10 text-lg mt-5">
+                            <p className="text-[#020d19] px-0 lg:px-10 text-lg mt-5">
                                 Dijital dönüşüm çağında, yenilikçi yapay zeka çözümleri sunarak işletmelerin ve bireylerin en iyiye ulaşmasını sağlıyoruz. Müşteri memnuniyetini ve sürdürülebilirliği öncelik olarak benimseyen şirketimiz, teknoloji ve insan odaklı bir yaklaşımı bir araya getiriyor.
                             </p>
                         </div>
@@ -23,10 +23,10 @@ export default function About() {
                     {/* Vizyonumuz Section */}
                     <div className="flex flex-col-reverse md:flex-row justify-between sm:py-10 py-4 items-center gap-5 mt-3 sm:mt-12">
                         <div className="flex-1">
-                            <p className="text-[#020d19] px-5 md:px-10 text-2xl sm:text-3xl md:text-4xl font-semibold">
+                            <p className="text-[#020d19] px-0 lg:px-10 text-2xl sm:text-3xl md:text-4xl font-semibold">
                                 <span className="text-3xl md:text-5xl">Vizyonumuz</span>,<br />küresel ölçekte teknolojik dönüşüme rehberlik etmek.
                             </p>
-                            <p className="text-[#020d19] px-5 md:px-10 text-lg mt-5">
+                            <p className="text-[#020d19] px-0 lg:px-10 text-lg mt-5">
                                 Dijital dönüşüm çağında, yenilikçi yapay zeka çözümleri sunarak işletmelerin ve bireylerin en iyiye ulaşmasını sağlıyoruz. Müşteri memnuniyetini ve sürdürülebilirliği öncelik olarak benimseyen şirketimiz, teknoloji ve insan odaklı bir yaklaşımı bir araya getiriyor.
                             </p>
                         </div>
@@ -41,10 +41,10 @@ export default function About() {
                             <Image src="/global-2.jpg" width={550} alt="" height={400} />
                         </div>
                         <div className="flex-1">
-                            <p className="text-[#020d19] px-5 md:px-10 text-2xl sm:text-3xl md:text-4xl font-semibold">
+                            <p className="text-[#020d19] px-0 lg:px-10 text-2xl sm:text-3xl md:text-4xl font-semibold">
                                 <span className="text-3xl md:text-5xl">Değerlerimiz</span>,<br /> müşterilerimize yenilikçi, etik ve sürdürülebilir çözümler sunmak.
                             </p>
-                            <p className="text-[#020d19] px-5 md:px-10 text-lg mt-5">
+                            <p className="text-[#020d19] px-0 lg:px-10 text-lg mt-5">
                                 Yenilikçilik: Sürekli gelişim ve yaratıcılık.<br />
                                 Müşteri Odaklılık: İhtiyaçlara duyarlı, sonuç odaklı hizmet.<br />
                                 Etik Yaklaşım: Şeffaf ve güvenilir iş süreçleri.<br />
@@ -56,10 +56,10 @@ export default function About() {
                     {/* Ekibimiz Section */}
                     <div className="flex flex-col-reverse md:flex-row justify-between py-4 sm:py-10 items-center gap-5 mt-3 sm:mt-12">
                         <div className="flex-1">
-                            <p className="text-[#020d19] px-5 md:px-10 text-2xl sm:text-3xl md:text-4xl font-semibold">
+                            <p className="text-[#020d19] px-0 lg:px-10 text-2xl sm:text-3xl md:text-4xl font-semibold">
                                 <span className="text-3xl md:text-5xl">Ekibimiz</span>,<br />alanında uzman ve çözüm odaklı profesyonellerden oluşmaktadır.
                             </p>
-                            <p className="text-[#020d19] px-5 md:px-10 text-lg mt-5">
+                            <p className="text-[#020d19] px-0 lg:px-10 text-lg mt-5">
                                 Yapay Zeka Uzmanları: En karmaşık problemlere akıllı çözümler üreten yaratıcı zihinler.<br />
                                 Veri Bilimciler: Büyük veriyi işleyerek anlamlı içgörüler çıkaran analitik ustalar.<br />
                                 Yazılım Mühendisleri: İş süreçlerini kolaylaştıran, yenilikçi yazılımlar geliştiren teknik uzmanlar.<br />
